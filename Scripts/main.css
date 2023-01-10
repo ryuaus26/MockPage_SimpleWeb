@@ -64,9 +64,16 @@ body{
     color:white;
  }
 
+ .header-links:hover{
+    color:white;
+ }
+
  .second-section-h2{
     color:white;
     font-family:'Times New Roman', Times, serif;
+    position:absolute;
+    top:280px;
+    padding:10px;
  }
 
  .watch-video-section{
@@ -74,13 +81,21 @@ body{
     margin-top:300px;
  }
 
+ .second-section-h2{
+    position:relative;
+    left:33px;
+ }
+
  .watch-video-button{
+    margin-left:40px;
     border-radius: 20px;
     width:180px;
     height:40px;
     background-color:white ;
     border-color:white;
     font-weight:bolder;
+    margin-bottom:50px;
+    
  }
 
  .careers-link{
@@ -88,14 +103,21 @@ body{
 
  }
 
- a:hover{
+ .careers-link:hover{
     color:white;
-    background-color: transparent;
-    text-decoration: underline;
+   
  }
 
- a:active{
-    color:white;
-    background-color: transparent;
-    text-decoration: underline;
+ .copyrights-section{
+    display:flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+    width:100%;
+ }
+ 
+ .copyrights-section{
+    background-size:cover;
+    background-image: url("../Assets/Images/Screen\ Shot\ 2023-01-10\ at\ 9.18.10\ AM.png");
  }
